@@ -16,7 +16,7 @@ This mini project covers setting up an AWS S3 bucket and configuring Maven to st
 
 Steps:
 ======
-1. Define / configure s3 bucket in a bucket.tf, terraform configuration file.
+1. Define or configure s3 bucket in a bucket.tf, terraform configuration file.
 2. Provision the bucket using terraform
 3. Configure maven build server to use the s3 bucket as its maven repository.
 
