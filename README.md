@@ -5,7 +5,9 @@ It’s an alternative to feature-rich Maven repository managers like Nexus and A
 
 This solution would be valid for a solo developer or a small team. 
 Although a better choice than checking in the resulting build artifacts into the SCM, it has some limitations: 
+
     - You won’t be able to Search for an artifact, which is convenient when you need to find out the artifactId, groupId and version of a           dependency. 
+    
     - You will also need to maintain the repository by manually removing older versions of artifacts as the snapshot folder grows overtime.
 
 A solution to these problems could be automated when using a feature-rich Maven repository manager like Nexus or Artifactory but this will more expensive than using an s3 bucket.
